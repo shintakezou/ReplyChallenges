@@ -6,7 +6,7 @@ code. The html calls a javascript function when you click
 called `flag()` which builds a string which is output when you insert
 the correct password, which is again built at the beginning of the
 function `magic()`. All you need is to “interpret” `flag()`: knowing
-the password which unlock the magic is a waste of time.
+the password which unlocks the magic is a waste of time.
 
 It's very hard to spot all this if you don't beautify properly the
 blob!
