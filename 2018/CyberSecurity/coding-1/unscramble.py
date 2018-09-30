@@ -17,6 +17,8 @@ def wsorted(ws):
 def k(ws):
     """Compute a (hopefully unique) key for a word"""
     w = ws.rstrip()
+    # the trick is that this key doesn't depend on the order of the
+    # letters of the word
     return str(len(w)) + ";" + str(wsorted(w))
 
 with open(dname, 'r') as f:
