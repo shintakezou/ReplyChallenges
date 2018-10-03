@@ -5,7 +5,7 @@ The given file is an executable. Luckly a GNU+Linux ELF executable
 precautions. Anyway…
 
 I tried to run it under gdb, but it can't be done because the code
-check to see if it is running under a debugger. Hence the first thing
+checks to see if it is running under a debugger. Hence the first thing
 is to remove this annoying check!
 
 This check is done using `ptrace`. I've used this:
