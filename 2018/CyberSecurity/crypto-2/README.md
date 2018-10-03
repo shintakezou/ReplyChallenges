@@ -5,8 +5,8 @@ it in [Wireshark](https://www.wireshark.org/). Scrolling the packets
 you can easily spot informations: a base64 string and a (RSA) public
 key.
 
-Hypothesis: the base64 string is a message encrypted with the public
-key.
+Hypothesis: the base64 string is a message encrypted (well, this is
+stated somewhere) with the public key.
 
 Inspecting the public key with openssl,
 
